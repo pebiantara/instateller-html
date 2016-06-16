@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'Dosis';
+
+  src: url('../fonts/Dosis-ExtraLight.ttf');
+  src: url('../fonts/Dosis-Medium.ttf');
+  src: url('../fonts/Dosis-Regular.ttf');
+  src: url('../fonts/Dosis-SemiBold.ttf');
+}
+
+@font-face{
+	font-family: 'Dosis Bold';
+	src: url('../fonts/Dosis-Bold.ttf');
+  src: url('../fonts/Dosis-ExtraBold.ttf');
+}
+body{
+	font-family: 'Dosis' !important;
+	padding: 0px;
+	margin: 0px;
+}
+strong{
+	font-family: 'Dosis Bold' !important;
+}
+
+body a:hover{
+	text-decoration: none;
+}
+
+.left-bar{
+	background: #99b236;
+  position: absolute;
+  width: 163px;
+  height: 100%;
+  border-radius: 0px 30px 30px 0px;
+  -webkit-border-radius: 0px 30px 30px 0px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.left-bar ul li{
+  height: 30%;
+}
+
+.left-bar a{
+	color: #fff; 
+	padding-top: 30px; 
+	display: block; 
+	padding-top: 75px;
+}
+
+.left-bar a span{
+	margin-top: 5px;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:visited, a:hover, a:focus{
+	text-decoration: none;
+}
+
+.title img{
+	width: 491px;
+	height: 75px;
+}
+
+.menu-btn{
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	background: #fff;
+	text-align: center;
+	padding: 5px;
+}
+
+.menu-btn img{margin: auto;margin-top: 8px;}
+
+.home h1{
+	text-align: center;
+	font-size: 150px !important;
+	font-weight: bold;
+	color: #99b236;
+	margin-top: 30px;
+}
+
+.home .content{text-align: center;}
+
+.title{
+	width: 100%; 
+	text-align: center; 
+	margin-top: 50px;	
+}
+
+.green {
+	color: #8eb321;
+}
+
+.green-bg {
+	background-color: #8eb321 !important;
+}
+
+.gray-bg {
+	background-color: #9b9a9f;
+	/*5b5b5f*/
+}
+
+.white {
+	color: #fff;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.btn-submit{
+	display: block;
+	padding-top: 61px !important;
+	font-size: 20px !important;
+	width: 150px;
+	height: 150px;
+	background: #99b236;
+	color: #fff;
+	border-radius: 50% !important;
+	-webkit-border-radius: 50% !important;
+}
+
+.buy-btn{
+	margin-top: 100px;
+}
+
+.text-right {
+	padding-right: 5%;
+}
+
+input {
+	width: 100%;
+	background-color: #8eb321;
+	border: none;
+	border-radius: 10px;
+	height: 5%;
+}
+
+.container.content{
+	padding-top: 40px;
+}
+
+.content li a {
+	color: #fff;
+}
+
+.content li {
+	background-color: #c3c4c9;
+	padding: 30% 0%;
+	margin: 4% 0%;
+	border-radius: 50%;
+}
+.content h1, .content5 h1, .content6 h1 {
+	font-size: 60px;
+}
+
+.device-input{height: 75px !important; color: #fff; font-size: 25px !important;}
+.device li{font-size: 20px; padding-top: 33px;}
+.device ul li{width: 95px; height: 95px;}
+
+.content5, .content6 {
+	padding: 3% 0%;
+}
+.content5 img, .content6 img {
+	width: 40px;
+	margin-right: 5px; 
+	height: 40px;
+}
+
+body th, body td {
+	padding: 0px 15px;
+	border-style: none solid;
+	border-color: #8eb321;
+	text-align: center;
+}
+
+.clearfix {
+	border: 1px solid #fff;
+}
+.lock, .check {
+	display: inline-flex;
+	width: 100%;
+	padding: 1% 0% 0% 3%;
+}
+.lock p, .lock table {
+	margin-right: 5%;
+}
+.lock th, .lock td {
+	border-color: #fff;
+}
+.content5 button {
+	border-radius: 20px;
+	border: 3px solid;
+	height: 40px;
+}
+.content5 button img {
+	width: 20px;
+}
+
+.content5 button.unlock{padding: 5px 10px;}
+.content5 button.unlock img{height: 20px;}
+
+.continue {
+	margin-top: 20px;
+}
+.continue a {
+	border-radius: 50%;
+	padding: 42px 10px;
+	display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.user {
+	display: inline-flex;
+}
+.user .table1 {
+	margin-left: 50px;
+}
+
+.down-arrow::before{
+	background-image: url('../img/icon-down_arrow.png');
+	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	content: "";
+	display: inline-block;
+}
+
+.scanner{
+	font-size: 40px !important;
+	text-align: center;
+}
+
+.barcode-area{
+	background: url('../img/scanner.png') no-repeat center;
+	height: 320px;
+}
+
+.barcode-area-wallet{
+	background: url('../img/phone-barcode.png') no-repeat center;
+	background-size: 200px 300px;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.card-area{
+	background: url('../img/icon-id_card.png') no-repeat center;
+	background-size: 300px 250px;
+	height: 250px;
+}
+
+.bill-right{
+	background: url('../img/money.png') no-repeat center;
+	background-size: 300px 250px;
+	height: 350px;	
+}
+
+.confirm-area{
+	height: 250px;
+}
+.confirm-area img{width: 450px; margin-left: 45px;}
+
+.bill-left{font-size: 30px; padding-top: 100px;}
+.content-text{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+.money{font-size: 35px;}
+
+.congratulation{
+	position: absolute;
+	right: 100px;
+	top: 0px;
+  background: url('../img/phone2.png') no-repeat center;
+	background-size: 150px 450px;
+	height: 450px;
+	width: 150px;
+}
+
+.box-congratz h1{
+	font-size: 80px !important;
+}
+.box-congratz p{font-size: 25px; margin: 0px; font-family: 'Dosis';}
+.congratz-footer{font-size: 30px; margin-top: 75px; font-family: 'Dosis';}
+
+a:visited, a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+.device a:visited{
+	color: #fff !important;
+}
+
+.left-bar a:visited, .btn-submit, .continue a{
+  color: #fff !important;
+}
+
+.scanner a:hover{
+	color: #9b9a9f;
+}
