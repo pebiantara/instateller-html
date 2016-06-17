@@ -1,12 +1,15 @@
 @font-face {
   font-family: 'Dosis';
 
-  src: url('../fonts/Dosis-ExtraLight.ttf');
-  src: url('../fonts/Dosis-Medium.ttf');
   src: url('../fonts/Dosis-Regular.ttf');
-  src: url('../fonts/Dosis-SemiBold.ttf');
+  src: url('../fonts/Dosis-Medium.ttf');
+  src: url('../fonts/Dosis-ExtraLight.ttf');
 }
 
+@font-face{
+	font-family: 'Dosis Semibold';
+	src: url('../fonts/Dosis-SemiBold.ttf');
+}
 @font-face{
 	font-family: 'Dosis Bold';
 	src: url('../fonts/Dosis-Bold.ttf');
@@ -80,7 +83,7 @@ a:visited, a:hover, a:focus{
 	font-weight: bold;
 	color: #97be13;
 	margin-top: 30px;
-	font-family: 'Dosis Bold';
+	font-family: 'Dosis Semibold';
 }
 
 .home .content{text-align: center;}
@@ -88,7 +91,7 @@ a:visited, a:hover, a:focus{
 .title{
 	width: 100%; 
 	text-align: center; 
-	margin-top: 15px;	
+	margin-top: 30px;	
 }
 
 .green {
@@ -181,7 +184,7 @@ input {
 	font-size: 50px;
 }
 
-.device-input{height: 60px !important; color: #fff; font-size: 25px !important;}
+.device-input{height: 60px !important; color: #fff; font-size: 25px !important; border-radius: 20px !important;}
 .device li{padding: 3px;}
 .device li.number{font-size: 30px;}
 .device li.delete, .device li.enter{font-size: 20px;}
@@ -304,8 +307,11 @@ body th, body td {
 
 .bill-right{
 	background: url('../img/money.png') no-repeat center;
-	background-size: 300px 250px;
-	height: 350px;	
+	background-size: 250px 200px;
+	height: 200px;	
+	position: absolute;
+	right: 50px;
+	margin-top: 75px;
 }
 
 .confirm-area{
@@ -359,3 +365,4 @@ a:visited, a:hover, a:focus {
 .no-padding-right{
   padding-right: 0px;
 }
+.limit{margin-top: 10px;}
