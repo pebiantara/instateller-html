@@ -347,7 +347,7 @@ body th, body td {
 	font-size: 80px !important;
 }
 .box-congratz p{font-size: 25px; margin: 0px; font-family: 'Dosis Regular';}
-.congratz-footer{font-size: 30px; margin-top: 25px; font-family: 'Dosis';}
+.congratz-footer{font-size: 25px; margin-top: 25px; font-family: 'Dosis';}
 
 a:visited, a:hover, a:focus {
     text-decoration: none !important;
@@ -364,7 +364,6 @@ a:visited, a:hover, a:focus {
 
 .c-device{padding: 20px;}
 .no-margin{margin: 0px;}
-.verify h2{font-size: 40px;}
 .left-bar a:hover{
 	color: #7a990f !important;
 }
