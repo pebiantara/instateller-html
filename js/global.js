@@ -15,4 +15,9 @@ $(document).on('ready page:load', function(){
   	if($(".device-input").val() != '')
       $('.device form').submit();
   })
+  $('.scanner a').hover(function(){
+    $(this).find('span').removeClass('down-arrow').addClass('down-arrow-hover');
+  }, function(){
+    $(this).find('span').addClass('down-arrow').removeClass('down-arrow-hover');    
+  })
 });
