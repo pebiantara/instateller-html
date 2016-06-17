@@ -16,6 +16,7 @@ body{
 	font-family: 'Dosis' !important;
 	padding: 0px;
 	margin: 0px;
+	overflow: hidden;
 }
 strong{
 	font-family: 'Dosis Bold' !important;
@@ -44,7 +45,7 @@ body a:hover{
 	color: #fff; 
 	padding-top: 30px; 
 	display: block; 
-	padding-top: 75px;
+	padding-top: 20px;
 }
 
 .left-bar a span{
@@ -59,8 +60,8 @@ a:visited, a:hover, a:focus{
 }
 
 .title img{
-	width: 491px;
-	height: 75px;
+	width: 450px;
+	height: 60px;
 }
 
 .menu-btn{
@@ -76,9 +77,12 @@ a:visited, a:hover, a:focus{
 
 .menu-btn img{margin: auto;margin-top: 8px;}
 
+.home-right{
+	margin-top: 10px;
+}
 .home h1{
 	text-align: center;
-	font-size: 150px !important;
+	font-size: 130px !important;
 	font-weight: bold;
 	color: #99b236;
 	margin-top: 30px;
@@ -89,7 +93,7 @@ a:visited, a:hover, a:focus{
 .title{
 	width: 100%; 
 	text-align: center; 
-	margin-top: 50px;	
+	margin-top: 15px;	
 }
 
 .green {
@@ -126,11 +130,11 @@ a:visited, a:hover, a:focus{
 }
 
 .buy-btn{
-	margin-top: 100px;
+	margin-top: 40px;
 }
 
 .text-right {
-	padding-right: 5%;
+	padding-right: 2%;
 }
 
 input {
@@ -156,16 +160,22 @@ input {
 	border-radius: 50%;
 }
 .content h1, .content5 h1, .content6 h1 {
-	font-size: 60px;
+	font-size: 50px;
 }
 
-.device-input{height: 75px !important; color: #fff; font-size: 25px !important;}
-.device li{font-size: 20px; padding-top: 33px;}
-.device ul li{width: 95px; height: 95px;}
+.device-input{height: 60px !important; color: #fff; font-size: 25px !important;}
+.device li.number{font-size: 30px; padding-top: 17px;}
+.device li.delete, .device li.enter{font-size: 22px; padding-top: 24px;}
+
+.device ul li{width: 100%; height: 77px;}
 
 .content5, .content6 {
-	padding: 3% 0%;
+
 }
+
+.content5 h2, .content5 h1{margin: 5px 0px;}
+.content6 h2, .content6 h1{margin: 5px 0px;}
+
 .content5 img, .content6 img {
 	width: 40px;
 	margin-right: 5px; 
@@ -206,7 +216,7 @@ body th, body td {
 .content5 button.unlock img{height: 20px;}
 
 .continue {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 .continue a {
 	border-radius: 50%;
@@ -239,20 +249,20 @@ body th, body td {
 
 .barcode-area{
 	background: url('../img/scanner.png') no-repeat center;
-	height: 320px;
+	height: 250px;
 }
 
 .barcode-area-wallet{
 	background: url('../img/phone-barcode.png') no-repeat center;
-	background-size: 200px 300px;
-	height: 300px;
+	background-size: 200px 235px;
+	height: 235px;
 	margin-bottom: 30px;
 }
 
 .card-area{
 	background: url('../img/icon-id_card.png') no-repeat center;
-	background-size: 300px 250px;
-	height: 250px;
+	background-size: 300px 188px;
+	height: 195px;
 }
 
 .bill-right{
@@ -262,9 +272,9 @@ body th, body td {
 }
 
 .confirm-area{
-	height: 250px;
+	height: 195px;
 }
-.confirm-area img{width: 450px; margin-left: 45px;}
+.confirm-area img{width: 345px; margin-left: 45px;}
 
 .bill-left{font-size: 30px; padding-top: 100px;}
 .content-text{
@@ -276,7 +286,7 @@ body th, body td {
 
 .congratulation{
 	position: absolute;
-	right: 100px;
+	right: 50px;
 	top: 0px;
   background: url('../img/phone2.png') no-repeat center;
 	background-size: 150px 450px;
@@ -298,10 +308,14 @@ a:visited, a:hover, a:focus {
 	color: #fff !important;
 }
 
-.left-bar a:visited, .btn-submit, .continue a{
+.left-bar a:visited, .left-bar a:hover, .btn-submit, .continue a{
   color: #fff !important;
 }
 
 .scanner a:hover{
 	color: #9b9a9f;
 }
+
+.c-device{padding: 20px;}
+.no-margin{margin: 0px;}
+.verify h2{font-size: 40px;}
