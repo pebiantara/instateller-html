@@ -1,15 +1,17 @@
+@font-face{
+	font-family: 'Dosis Regular';
+  src: url('../fonts/Dosis-Regular.ttf');
+}
+
 @font-face {
   font-family: 'Dosis';
 
+  src: url('../fonts/Dosis-ExtraLight.ttf');
   src: url('../fonts/Dosis-Regular.ttf');
   src: url('../fonts/Dosis-Medium.ttf');
-  src: url('../fonts/Dosis-ExtraLight.ttf');
+  src: url('../fonts/Dosis-SemiBold.ttf');
 }
 
-@font-face{
-	font-family: 'Dosis Semibold';
-	src: url('../fonts/Dosis-SemiBold.ttf');
-}
 @font-face{
 	font-family: 'Dosis Bold';
 	src: url('../fonts/Dosis-Bold.ttf');
@@ -27,6 +29,10 @@ strong{
 
 body a:hover{
 	text-decoration: none;
+}
+
+.regular{
+	font-family: 'Dosis Regular';
 }
 
 .left-bar{
@@ -83,7 +89,7 @@ a:visited, a:hover, a:focus{
 	font-weight: bold;
 	color: #97be13;
 	margin-top: 30px;
-	font-family: 'Dosis Semibold';
+	font-family: 'Dosis Bold';
 }
 
 .home .content{text-align: center;}
@@ -309,7 +315,7 @@ body th, body td {
 	background: url('../img/money.png') no-repeat center;
 	background-size: 250px 200px;
 	height: 200px;	
-	position: absolute;
+	position: absolute !important;
 	right: 50px;
 	margin-top: 75px;
 }
@@ -332,16 +338,16 @@ body th, body td {
 	right: 50px;
 	top: 0px;
   background: url('../img/phone2.png') no-repeat center;
-	background-size: 150px 450px;
-	height: 450px;
+	background-size: 150px 420px;
+	height: 420px;
 	width: 150px;
 }
 
 .box-congratz h1{
 	font-size: 80px !important;
 }
-.box-congratz p{font-size: 25px; margin: 0px; font-family: 'Dosis';}
-.congratz-footer{font-size: 30px; margin-top: 75px; font-family: 'Dosis';}
+.box-congratz p{font-size: 25px; margin: 0px; font-family: 'Dosis Regular';}
+.congratz-footer{font-size: 30px; margin-top: 25px; font-family: 'Dosis';}
 
 a:visited, a:hover, a:focus {
     text-decoration: none !important;
